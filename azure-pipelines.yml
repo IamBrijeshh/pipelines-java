@@ -8,7 +8,7 @@ trigger:
 
 pool:
   name: 'DevOpsDemo'
-  vmImage: ubntu-latest
+  vmImage: ubuntu-latest
 
 steps:
 - task: Maven@3
