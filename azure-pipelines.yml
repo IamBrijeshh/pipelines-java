@@ -7,7 +7,8 @@ trigger:
 - main
 
 pool:
-  DevOps-Practice
+  name: 'DevOpsDemo'
+  vmImage: 'Demo1'
 
 steps:
 - task: Maven@3
